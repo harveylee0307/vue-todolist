@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="All">
     <img alt="Vue logo" src="../assets/logo.png">
 
   </div>
@@ -8,9 +8,6 @@
 <script>
 
 export default {
-  name: 'Home',
-  components: {
-
-  }
+  name: 'All',
 }
 </script>

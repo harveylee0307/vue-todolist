@@ -24,6 +24,10 @@ const routes = [
     path: '/complete',
     name: 'Complete',
     component: Complete
+  },
+  {
+    path: '*',
+    redirect: { name: 'All' }
   }
 ]
 

@@ -3,7 +3,6 @@
     <router-link to="/">全部</router-link> |
     <router-link to="/active">已完成</router-link> |
     <router-link to="/complete">未完成</router-link>
-
   </div>
 </template>
 
@@ -15,8 +14,7 @@ export default {
 
 <style lang="scss">
 #nav {
-  padding: 30px;
-
+  padding: 30px 15px;
   a {
     font-weight: bold;
     color: #2c3e50;
